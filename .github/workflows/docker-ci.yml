@@ -18,8 +18,8 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 
-    - name: Build image
-      run: docker build -t gaurajjadhav/ci-cd-docker-demo .
+    - name: Build Docker image
+      run: docker build -t gauraj/ci-cd-docker-demo:latest .
 
-    - name: Push image to Docker Hub
-      run: docker push gaurajjadhav/ci-cd-docker-demo
+    - name: Push Docker image to Docker Hub
+      run: docker push gauraj/ci-cd-docker-demo:latest
