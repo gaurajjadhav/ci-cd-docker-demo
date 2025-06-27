@@ -60,3 +60,11 @@ docker run -p 5000:5000 gauraj/ci-cd-docker-demo
 ```
 
 Visit `http://localhost:5000` to view the app.
+
+
+### GitHub Actions Secrets Configuration
+Added the following repository secrets in GitHub:
+
+DOCKER_USERNAME → Docker Hub username
+
+DOCKER_PASSWORD → Docker Hub access token
