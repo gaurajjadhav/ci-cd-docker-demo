@@ -83,6 +83,15 @@ Every code push to main automatically:
 
   ---
 
+  ## 📸 Workflow Screenshot
+
+![GitHub Actions Workflow]([screenshots/workflow-success.png](https://github.com/gaurajjadhav/ci-cd-docker-demo/blob/main/screenshots/GitHub%20Actions%20build%20(green%20ticks).png))
+
+## 🌐 Running App
+
+![Localhost Running]([screenshots/localhost-output.png](https://github.com/gaurajjadhav/ci-cd-docker-demo/blob/main/screenshots/localhost%205000%20in%20browser.png))
+
+
 ### Author
 ### Gauraj Jadhav
 **DevOps & Cloud Enthusiast**
