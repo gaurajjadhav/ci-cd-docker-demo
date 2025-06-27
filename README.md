@@ -19,3 +19,44 @@ ci-cd-docker-demo/
 └── workflows/
 
 └── docker-ci.yml # GitHub Actions CI/CD workflow
+
+---
+
+## 🛠️ Tech Stack & Tools Used
+
+- **Python (Flask)** – Web framework
+- **Docker** – Containerization platform
+- **GitHub** – Version control and source repository
+- **GitHub Actions** – Automation and CI/CD pipeline
+- **Docker Hub** – Image registry to host Docker images
+
+---
+
+## ⚙️ Workflow Steps
+
+1. User pushes code to the GitHub `main` branch.
+2. GitHub Actions:
+   - Checks out the code
+   - Logs into Docker Hub using stored secrets
+   - Builds a Docker image
+   - Pushes the image to Docker Hub
+3. Docker image is available publicly at:  
+   🔗 [https://hub.docker.com/r/gauraj/ci-cd-docker-demo](https://hub.docker.com/r/gauraj/ci-cd-docker-demo)
+
+---
+
+## 📄 Setup Instructions
+
+### 🔧 Clone the Repository
+```bash
+git clone https://github.com/gaurajjadhav/ci-cd-docker-demo.git
+cd ci-cd-docker-demo
+```
+
+### Build & Run the Docker Image Locally
+```bash
+docker build -t gauraj/ci-cd-docker-demo .
+docker run -p 5000:5000 gauraj/ci-cd-docker-demo
+```
+
+Visit `http://localhost:5000` to view the app.
