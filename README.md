@@ -1,10 +1,10 @@
-# 🚀 CI/CD Pipeline with GitHub Actions & Docker
+# CI/CD Pipeline with GitHub Actions & Docker
 
 This project demonstrates a simple yet powerful CI/CD pipeline using **GitHub Actions** and **Docker**. It automatically builds and pushes a Docker image of a Flask web application to Docker Hub whenever code is pushed to the main branch.
 
 ---
 
-## 📌 Project Structure
+##  Project Structure
 
 ci-cd-docker-demo/
 
@@ -22,7 +22,7 @@ ci-cd-docker-demo/
 
 ---
 
-## 🛠️ Tech Stack & Tools Used
+##  Tech Stack & Tools Used
 
 - **Python (Flask)** – Web framework
 - **Docker** – Containerization platform
@@ -32,7 +32,7 @@ ci-cd-docker-demo/
 
 ---
 
-## ⚙️ Workflow Steps
+##  Workflow Steps
 
 1. User pushes code to the GitHub `main` branch.
 2. GitHub Actions:
@@ -45,9 +45,9 @@ ci-cd-docker-demo/
 
 ---
 
-## 📄 Setup Instructions
+##  Setup Instructions
 
-### 🔧 Clone the Repository
+###  Clone the Repository
 ```bash
 git clone https://github.com/gaurajjadhav/ci-cd-docker-demo.git
 cd ci-cd-docker-demo
