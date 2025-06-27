@@ -61,6 +61,7 @@ docker run -p 5000:5000 gauraj/ci-cd-docker-demo
 
 Visit `http://localhost:5000` to view the app.
 
+---
 
 ### GitHub Actions Secrets Configuration
 Added the following repository secrets in GitHub:
@@ -68,3 +69,21 @@ Added the following repository secrets in GitHub:
 DOCKER_USERNAME → Docker Hub username
 
 DOCKER_PASSWORD → Docker Hub access token
+
+---
+
+### Result
+Every code push to main automatically:
+
+- Builds the Flask app as a Docker image.
+
+- Pushes it to Docker Hub.
+
+- Makes the latest version available for deployment.
+
+  ---
+
+### Author
+### Gauraj Jadhav
+**DevOps & Cloud Enthusiast**
+**Linkedin : 'https://www.linkedin.com/in/gaurajjadhav'**
